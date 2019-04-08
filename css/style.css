@@ -1175,10 +1175,7 @@ textarea:focus {
     .top-bar h1 {
         font-size: 30px;
         line-height: 30px;
-    }
-    
-    
-    
+    }}
     
     
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1264,4 +1261,3 @@ textarea:focus {
     @media only screen and (max-width: 767px) {
       .work-experience-timeline-wrapper .single-experience-timeline p {
         font-size: 13px; } }
-}
