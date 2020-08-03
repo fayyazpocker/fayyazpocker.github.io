@@ -63,11 +63,11 @@
                 <!-- <li><a href="index.html">Intro</a></li> -->
                 <!-- <li><a href="projects.html">Projects</a></li> -->
                 <li><a href="Autonomous_navigation.html">Autonomous Navigation of AGV</a>
-                <li><a href="mapping_localization.html">Mapping and Localization of AGV</a><i <i class="ion-ionic" style = "color: #ffbf00"></i> </li>
+                <li><a href="mapping_localization.html">Mapping and Localization of AGV</a> </li>
                 <li><a href="path_uav.html">Path Planning of UAV</a> </li>
-                <li><a href="modern_robotics.html">Capstone Project - Modern Robotics : Mechanics, Planning and Control</a> </li>
+                <li><a href="modern_robotics.html">Capstone Project - Modern Robotics : Mechanics, Planning and Control</a></li>
                 <li><a href="hello_ros.html">Capstone Project - Hello (Real) World with ROS</a></li>
-                <li><a href="sampling.html">Sampling Based Planners - PRM & RRT</a></li>
+                <li><a href="sampling.html">Sampling Based Planners - PRM & RRT</a> <i class="ion-ionic" style = "color: #ffbf00"></i></li>
                 <li><a href="mapping.html">Cartographer and Gmapping in V-REP</a></li>
                 <li><a href="path_diff.html">Path planning of a Differential Drive Robot</a></li>
                 <li><a href="obj_rec.html">Object recognition and Path planning of a line following robot</a></li>
@@ -92,8 +92,8 @@
     
     <!-- top-bar -->
     <div class="top-bar">
-        <h1>Mapping and Localization of AGV</h1>
-        <p><a href="index.html">Home</a> / <a href="projects.html">Projects</a> /Mapping and Localization of AGV</p>
+        <h1>Sampling Based Planners - PRM & RRT</h1>
+        <p><a href="index.html">Home</a> / <a href="projects.html">Projects</a> /Sampling Based Planners - PRM & RRT</p>
     </div>
     <!-- end top-bar -->
     
@@ -101,39 +101,44 @@
     <div class="container main-container">
         <div class="col-md-12">
             <!--<img src="img/portfolio/portfolio.jpg" alt="" class="img-responsive" />-->
-   <iframe width="100%" height="600" src="https://www.youtube.com/embed/DEqXDmCZKT8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="100%" height="600" src="https://www.youtube.com/embed/HKWpSYK6wd4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="h-30"></div>
         </div>
 
         <div class="col-md-12">
-            <h3 class="text-uppercase">Mapping and Localization of AGV</h3>
-            <h5>Developer @Srinar Electronics Pvt Ltd</h5>
+            <h3 class="text-uppercase">Sampling Based Planners - PRM & RRT</h3>
+            <h5>Developer @hobby, home</h5>
             <div class="h-30"></div>
         </div>
 
         <div class="col-md-9">
-           <li style="text-align : justify">Implemented Base controller of AGV to respond to ROS commands based on unicycle model</li>
-                <li style="text-align : justify">Applied SLAM algorithm to map the industrial area based on visual odometry, wheel odometry, imu and scan data</li>
-                <li style="text-align : justify">Localization of AGV on the generated Map using fusion of continous position data and global position data</li>
+           <li style="text-align : justify">Two sampling based planners are implemented namely Probabilistic roadmap(PRM) and Rapidly Exploring Random Tree(RRT)</li>
+                <li style="text-align : justify">Project is implemented in Python and ROS is used to interact with the simulator, V-REP</li>
+                <li style="text-align : justify">Sampling of points in the configuration space is done using Halton Sequence</li>
+                <li style="text-align : justify">K-D Tree is used to effectively find the nearest neighbouring node in PRM</li>
+                <li style="text-align : justify">R-Tree is used effectively find the nearest neighbouring node in RRT</li>
+                <li style="text-align : justify">Local planner used in both the planners are straight line planners</li>
+                <li style="text-align : justify">A* search with euclidean distance as the heuristic cost to go is used to find the shortest path in case of RRT</li>
         </div>
 
         <div class="col-md-3">
             <ul class="cat-ul">
                 <!--<li><i class="ion-ios-circle-filled"></i> Designing of Bot</li>-->
-                <li><i class="ion-android-favorite"></i> AGV</li>
-                <li><i class="ion-android-favorite"></i> SLAM</li>
-                <li><i class="ion-android-favorite"></i> Localization</li>
-                <li><i class="ion-android-favorite"></i> Gazebo</li>
-                <li><i class="ion-android-favorite"></i> PID</li>
+                <li><i class="ion-android-favorite"></i> V-REP</li>
+                <li><i class="ion-android-favorite"></i> Path Planning</li>
+                <li><i class="ion-android-favorite"></i> RRT</li>
+                <li><i class="ion-android-favorite"></i> PRM</li>
+                <li><i class="ion-android-favorite"></i> A*</li>
             </ul>
-            <!--<div class="h-10"></div>-->
-            <!--<h4>Share</h4>-->
-            <!--<ul class="social-ul">-->
-            <!--    <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>-->
-            <!--    <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>-->
-            <!--    <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>-->
-            <!--    <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>-->
-            <!--</ul>-->
+            <div class="h-10"></div>
+            <!-- <h6>Github repo</h6> -->
+            <ul class="contact-info">
+               <!-- <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
+               <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
+               <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
+               <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li> -->
+               <p class="box-social"><a href="https://gitlab.com/fayyazpocker/sampling_based_planners"><i class="ion-social-linkedin"></i></a></p>
+            </ul>
         </div>
     </div>
     <!-- end main-container -->
