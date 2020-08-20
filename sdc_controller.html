@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Project</title>
+    <link rel="icon" href="img/robot.png" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- modernizr -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end Preloader -->
+
+    <div class="container-fluid">
+       <!-- box-header -->
+        <header class="box-header">
+            <div class="box-logo">
+                <a href="projects.html"><img src="img/rob.png" width="60" alt="Logo"></a>
+            </div>
+            <!-- box-nav -->
+            <a class="box-primary-nav-trigger" href="#0">
+                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+            </a>
+            <!-- box-primary-nav-trigger -->
+        </header>
+        <!-- end box-header -->
+        
+        <!-- nav -->
+        <nav>
+            <ul class="box-primary-nav">
+                 <li class="box-label">Projects</li>
+
+                <!-- <li><a href="index.html">Intro</a></li> -->
+                <!-- <li><a href="projects.html">Projects</a></li> -->
+                <li><a href="Autonomous_navigation.html">Autonomous Navigation of AGV</a>
+                <li><a href="mapping_localization.html">Mapping and Localization of AGV</a> </li>
+                <li><a href="path_uav.html">Path Planning of UAV</a> </li>
+                <li><a href="modern_robotics.html">Capstone Project - Modern Robotics : Mechanics, Planning and Control</a> <i class="ion-ionic" style = "color: #ffbf00"></i></li>
+                <li><a href="hello_ros.html">Capstone Project - Hello (Real) World with ROS</a></li>
+                <li><a href="sampling.html">Sampling Based Planners - PRM & RRT</a></li>
+                <li><a href="mapping.html">Cartographer and Gmapping in V-REP</a></li>
+                <li><a href="path_diff.html">Path planning of a Differential Drive Robot</a></li>
+                <li><a href="obj_rec.html">Object recognition and Path planning of a line following robot</a></li>
+                <li><a href="autotuning.html">Autotuning of Controller</a></li>
+                <li><a href="fish.html">Fish Bot</a></li>
+                <li><a href="balance.html">Self Balancing Robot</a></li>
+                <li><a href="projects.html">Projects</a><i <i class="ion-ios-rewind" style = "color: #ffbf00"></i></li>
+                <li><a href="index.html">Home</a><i <i class="ion-ios-home" style = "color: #ffbf00"></i></li>
+
+
+
+                <!--<li class="box-label">Follow me</li>-->
+
+                <!--<li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>-->
+                <!--<li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>-->
+                <!--<li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>-->
+                <!--<li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>-->
+            </ul>
+        </nav>
+        <!-- end nav -->
+    </div>
+    
+    <!-- top-bar -->
+    <div class="top-bar">
+        <h1>Navigation of Self Driving Cars</h1>
+        <p><a href="index.html">Home</a> / <a href="projects.html">Projects</a> /Navigation of Self Driving Cars</p>
+    </div>
+    <!-- end top-bar -->
+    
+    <!-- main-container -->
+    <div class="container main-container">
+        <div class="col-md-12">
+            <!--<img src="img/portfolio/portfolio.jpg" alt="" class="img-responsive" />-->
+   <iframe width="100%" height="600" src="https://www.youtube.com/embed/RBkm6SndDto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="h-30"></div>
+        </div>
+        <div class="col-md-12">
+            <h3 class="text-uppercase">Navigation of Self Driving Car</h3>
+            <h5>Developer @hobby, home</h5>
+            <div class="h-30"></div>
+        </div>
+
+        <div class="col-md-9">
+           <li style="text-align : justify">Implemented Longitudinal and Lateral controller to control cruise velocity and steer angle respectively</li>
+                <li style="text-align : justify">An improved PID controller is used as Longitudinal controller to control throttle and brake</li>
+                <li style="text-align : justify">Geometric path tracking controllers namely Pure Pursuit and Stanley controllers are used to implement Lateral Controller of the car</li>
+                <li style="text-align : justify">Pure Pursuit relies on the lookahead distance while Stanley controller relies on the crosstrack and heading error</li>
+                <li style="text-align : justify">Project is implemented in Carla simulator and Python client is used to control the ego in Carla</li>
+        </div>
+
+        <div class="col-md-3">
+            <ul class="cat-ul">
+                <!--<li><i class="ion-ios-circle-filled"></i> Designing of Bot</li>-->
+                <li><i class="ion-android-favorite"></i> PID</li>
+                <li><i class="ion-android-favorite"></i> Pure Pursuit</li>
+                <li><i class="ion-android-favorite"></i> Stanley Controller</li>
+                <li><i class="ion-android-favorite"></i> Carla</li>
+                <li><i class="ion-android-favorite"></i> Self Driving Car</li>
+            </ul>
+            <div class="h-10"></div>
+            <!-- <h6>Github repo</h6> -->
+            <ul class="contact-info">
+               <!-- <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
+               <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
+               <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
+               <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li> -->
+               <p class="box-social"><a href="https://github.com/fayyazpocker/SelfDrivingCar"><i class="ion-social-linkedin"></i></a></p>
+            </ul>
+        </div>
+    </div>
+    <!-- end main-container -->
+
+
+    <!-- footer -->
+    <!--<footer>-->
+    <!--    <div class="container-fluid">-->
+    <!--        <p class="copyright">© Box Portfolio 2016</p>-->
+    <!--    </div>-->
+    <!--</footer>-->
+    <!-- end footer -->
+    
+    <!-- back to top -->
+    <a href="#0" class="cd-top"><i class="ion-ios-arrow-up"></i></a>
+    <!-- end back to top -->
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+
+    <!--  custom script -->
+    <script src="js/custom.js"></script>
+    
+
+
+</body>
+
+</html>
